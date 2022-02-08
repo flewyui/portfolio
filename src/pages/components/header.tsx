@@ -17,7 +17,7 @@ const Header = () => {
                 </Link>
             </div>
             <ul className="flex flex-1">
-                <li className="flex relative flex-1 justify-center h-[100%] hover:text-[#cbd5e1] hover:bg-[#535353] transition hover:duration-300 duration-0">
+                <li className="flex relative flex-1 justify-center h-[100%] hover:text-[#cbd5e1] hover:bg-[#535353] transition hover:duration-300">
                     <Link href="/">
                         <a
                             className={`flex justify-center items-center absolute w-[100%] h-[100%] top-0 bottom-0 ${
@@ -31,7 +31,7 @@ const Header = () => {
                 {menues.map((menu) => {
                     return (
                         <li
-                            className="flex relative flex-1 justify-center h-[100%] hover:text-[#cbd5e1] hover:bg-[#535353] transition hover:duration-300 duration-0"
+                            className="flex relative flex-1 justify-center h-[100%] hover:text-[#cbd5e1] hover:bg-[#535353] transition hover:duration-300"
                             key={menu.name}
                         >
                             <Link href={`/${menu.name.toLowerCase()}`}>

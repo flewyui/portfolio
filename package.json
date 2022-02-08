@@ -1,13 +1,14 @@
 {
-  "name": "portfolio_2",
+  "name": "portfolio",
   "private": true,
-  "homepage": "http://flewyui.github.io/tic-tac-toe",
+  "homepage": "http://flewyui.github.io/portfolio",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint src",
     "fix:lint": "next lint --fix src",
+    "export": "next export",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
