@@ -8,7 +8,7 @@ export default function Home() {
                 <meta property="og:title" content="トップページ" />
                 <meta property="og:description" content="これはトップページ" />
             </Head>
-            <h1 className="flex items-center text-[30px] font-bold text-[#535353] animate-fade">welcome.</h1>
+            <h1 className="flex items-center text-[30px] font-bold text-[#535353] animate-fadeIn">welcome.</h1>
         </div>
     )
 }

@@ -10,7 +10,7 @@ const Layout: FC<Props> = ({ children }) => {
     return (
         <>
             <Header />
-            <main className="h-[82%] bg-[#cbd5e1] animate-fade">{children}</main>
+            <main className="h-[82%] bg-[#cbd5e1]">{children}</main>
             <Footer />
         </>
     )

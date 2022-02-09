@@ -7,11 +7,11 @@ module.exports = {
         extend: {
             // that is animation class
             animation: {
-                fade: 'fadeOut 2s ease-in-out',
+                fadeIn: 'fadeIn 0.3s linear',
             },
             // that is actual animation
             keyframes: () => ({
-                fadeOut: {
+                fadeIn: {
                     '0%': { opacity: 0 },
                     '100%': { opacity: 1 },
                 },

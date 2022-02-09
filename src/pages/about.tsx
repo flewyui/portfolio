@@ -1,10 +1,10 @@
 const About = () => {
     return (
         <>
-            <div className="flex justify-center h-[15%]">
+            <div className="flex justify-center h-[15%] animate-fadeIn">
                 <h1 className="flex items-center text-[30px] font-bold text-[#535353]">About</h1>
             </div>
-            <div className="h-[85%]">
+            <div className="h-[85%] animate-fadeIn">
                 <table className="m-auto">
                     <tbody>
                         <tr>

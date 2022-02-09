@@ -1,51 +1,21 @@
 const Products = () => {
     return (
         <>
-            <div className="flex justify-center h-[15%]">
+            <div className="flex justify-center h-[15%] animate-fadeIn">
                 <h1 className="flex items-center text-[30px] font-bold text-[#535353]">Products</h1>
             </div>
-            <div className="h-[85%]">
-                <table className="m-auto">
-                    <tbody>
-                        <tr>
-                            <th>Name:</th>
-                        </tr>
-                        <tr>
-                            <td className="text-center">
-                                flewyui
-                                <br />
-                                <br />
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>age:</th>
-                        </tr>
-                        <tr>
-                            <td className="text-center">
-                                28
-                                <br />
-                                <br />
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>Accounts: </th>
-                        </tr>
-                        <tr>
-                            <td className="text-center">
-                                github:{' '}
-                                <a href="https://github.com/flewyui" target="_blank" rel="noreferrer">
-                                    https://github.com/flewyui
-                                </a>
-                                <br />
-                                <br />
-                                Qiita:{' '}
-                                <a href="https://qiita.com/flewyui" target="_blank" rel="noreferrer">
-                                    https://qiita.com/flewyui
-                                </a>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+            <div className="h-[85%] animate-fadeIn">
+                <div className="flex flex-row">
+                    <div className="flex-1 p-2 m-1 h-[240px] border-2 border-[#535353] text-center">
+                        <h2 className="text-[#535353]">Todo App [TS/React]</h2>
+                    </div>
+                    <div className="flex-1 p-2 m-1 h-[240px] border-2 border-[#535353] text-center">
+                        <h2 className="text-[#535353]">tic-tac-toe [ReactHooks]</h2>
+                    </div>
+                    <div className="flex-1 p-2 m-1 h-[240px] border-2 border-[#535353] text-center">
+                        <h2 className="text-[#535353]">Todo App [PHP/Laravel]</h2>
+                    </div>
+                </div>
             </div>
         </>
     )
