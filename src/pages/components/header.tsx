@@ -9,11 +9,11 @@ const Header = () => {
     return (
         <header className="flex h-[10%]">
             <Head>
-                <title>My Portfolio {currentPath}</title>
+                <title>flewyui's portfolio {currentPath}</title>
             </Head>
             <div className="flex flex-1">
                 <Link href="/">
-                    <a className="flex items-center text-[30px] font-bold text-[#535353]">My Portfolio</a>
+                    <a className="flex items-center text-[30px] font-bold text-[#535353]">flewyui's portfolio</a>
                 </Link>
             </div>
             <ul className="flex flex-1">
