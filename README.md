@@ -1,4 +1,4 @@
-## You can see my portfolio at https://flewyui.github.io/portfolio/
+You can see my portfolio at https://flewyui.github.io/portfolio/
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
