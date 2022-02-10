@@ -6,13 +6,13 @@ const Products = () => {
             </div>
             <div className="h-[85%] animate-fadeIn">
                 <div className="flex flex-row">
-                    <div className="flex-1 p-2 m-1 h-[240px] border-2 border-[#535353] text-center">
+                    <div className="flex-1 p-2 m-1 h-[240px] text-center border-2 border-[#535353]">
                         <h2 className="text-[#535353]">Todo App [TS/React]</h2>
                     </div>
-                    <div className="flex-1 p-2 m-1 h-[240px] border-2 border-[#535353] text-center">
+                    <div className="flex-1 p-2 m-1 h-[240px] text-center border-2 border-[#535353]">
                         <h2 className="text-[#535353]">tic-tac-toe [ReactHooks]</h2>
                     </div>
-                    <div className="flex-1 p-2 m-1 h-[240px] border-2 border-[#535353] text-center">
+                    <div className="flex-1 p-2 m-1 h-[240px] text-center border-2 border-[#535353]">
                         <h2 className="text-[#535353]">Todo App [PHP/Laravel]</h2>
                     </div>
                 </div>

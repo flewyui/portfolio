@@ -3,7 +3,7 @@ export default function Home() {
     return (
         <div className="flex justify-center h-[100%]">
             <Head>
-                <title>flewyui's portfolio</title>
+                <title>flewyui portfolio</title>
                 <meta name="description" content="これはトップページです" />
                 <meta property="og:title" content="トップページ" />
                 <meta property="og:description" content="これはトップページ" />
