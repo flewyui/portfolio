@@ -10,6 +10,7 @@ const Header = () => {
         <header className="flex h-[10%]">
             <Head>
                 <title>flewyui portfolio {currentPath}</title>
+                <link rel="favicon" href="/favicon.ico" />
             </Head>
             <div className="flex flex-1">
                 <Link href="/">
