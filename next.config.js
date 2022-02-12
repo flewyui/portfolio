@@ -3,7 +3,7 @@ const urlPrefix = process.env.URL_PREFIX ? '/' + process.env.URL_PREFIX : ''
 const nextConfig = {
     reactStrictMode: true,
     assetPrefix: urlPrefix,
-    basePath: urlPrefix,
+    basePath: process.env.NODE_ENV === 'production' ? '/portfolio' : '',
     trailingSlash: true,
 }
 
