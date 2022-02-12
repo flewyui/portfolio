@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import { getImageSrc } from '../../utils/config'
 const Header = () => {
     const menues = [{ name: 'About' }, { name: 'Skills' }, { name: 'Products' }, { name: 'History' }]
     const router = useRouter()
@@ -10,7 +11,7 @@ const Header = () => {
         <header className="flex h-[10%]">
             <Head>
                 <title>flewyui portfolio {currentPath}</title>
-                <link rel="favicon" href="/favicon.ico" />
+                <link rel="icon" href={getImageSrc('favicon.ico')} />
             </Head>
             <div className="flex flex-1">
                 <Link href="/">
