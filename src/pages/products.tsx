@@ -6,9 +6,9 @@ const Products = () => {
                 <h1 className="flex items-center text-[30px] font-bold text-[#535353]">Products</h1>
             </div>
             <div className="h-[85%] animate-fadeIn">
-                <div className="flex flex-row">
+                <div className="flex-row md:flex">
                     <div className="flex-1 p-2 m-1 h-[300px] text-center border-2 border-[#535353]">
-                        <h2 className="text-[#535353]">Todo App [TS/React]</h2>
+                        <h2 className="mb-5 text-[#535353]">Todo App [TS/React]</h2>
                         <div className="flex justify-center">
                             <img
                                 src={getImageSrc('cp-ts-react-todo.jpg')}
@@ -19,7 +19,7 @@ const Products = () => {
                         </div>
                     </div>
                     <div className="flex-1 p-2 m-1 h-[300px] text-center border-2 border-[#535353]">
-                        <h2 className="text-[#535353]">tic-tac-toe [ReactHooks]</h2>
+                        <h2 className="mb-5 text-[#535353]">tic-tac-toe [ReactHooks]</h2>
                         <div className="flex justify-center">
                             <img
                                 src={getImageSrc('cp-tic-tac-toe.jpg')}
@@ -30,7 +30,7 @@ const Products = () => {
                         </div>
                     </div>
                     <div className="flex-1 p-2 m-1 h-[300px] text-center border-2 border-[#535353]">
-                        <h2 className="text-[#535353]">Todo App [PHP/Laravel]</h2>
+                        <h2 className="mb-5 text-[#535353]">Todo App [PHP/Laravel]</h2>
                         <div className="flex justify-center">
                             <img
                                 src={getImageSrc('cp-laravel-todo.jpg')}
