@@ -10,12 +10,12 @@ const Header = () => {
     return (
         <header className="flex h-[10%]">
             <Head>
-                <title>flewyui portfolio {currentPath}</title>
+                <title>shin portfolio {currentPath}</title>
                 <link rel="icon" href={getImageSrc('favicon.ico')} />
             </Head>
             <div className="flex flex-1">
                 <Link href="/">
-                    <a className="flex items-center text-[30px] font-bold text-[#535353]">flewyui portfolio</a>
+                    <a className="flex items-center text-[30px] font-bold text-[#535353]">shin portfolio</a>
                 </Link>
             </div>
             <ul className="flex flex-1">
