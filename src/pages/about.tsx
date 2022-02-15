@@ -12,7 +12,7 @@ const About = () => {
                         </tr>
                         <tr>
                             <td className="text-center">
-                                flewyui
+                                shin
                                 <br />
                                 <br />
                             </td>
