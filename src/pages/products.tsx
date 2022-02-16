@@ -2,7 +2,7 @@ import { getImageSrc } from '../utils/config'
 const Products = () => {
     return (
         <>
-            <div className="flex justify-center h-[15%] animate-fadeIn">
+            <div className="flex justify-center py-[15px] h-[15%] animate-fadeIn sm:py-[10px]">
                 <h1 className="flex items-center text-[30px] font-bold text-[#535353]">Products</h1>
             </div>
             <div className="h-[85%] animate-fadeIn">
