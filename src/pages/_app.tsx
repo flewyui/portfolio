@@ -9,7 +9,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
     const canScroll = currentPath === 'skills' || currentPath === 'products'
 
     return (
-        <div className={`my-0 mr-[70px] sm:mx-[50px] h-[100vh] ${canScroll && 'sm:h-[100vh] h-[100%]'}`}>
+        <div className={`my-0 mr-[0px] sm:mx-[50px] h-[100vh] ${canScroll && 'sm:h-[100vh] h-[100%]'}`}>
             <Layout>
                 <Component {...pageProps} />
             </Layout>

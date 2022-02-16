@@ -13,16 +13,19 @@ const Header = () => {
                 <title>shin portfolio {currentPath}</title>
                 <link rel="icon" href={getImageSrc('favicon.ico')} />
             </Head>
-            <div className="flex flex-1">
+            <div className="flex sm:flex-1">
                 <Link href="/">
-                    <a className="flex items-center text-[30px] font-bold text-[#535353]">shin portfolio</a>
+                    <a className="flex items-center text-[20px] font-bold text-[#535353] sm:text-[30px]">
+                        shin <br className="block sm:hidden" />
+                        portfolio
+                    </a>
                 </Link>
             </div>
-            <ul className="absolute top-[66px] right-0 sm:flex sm:static sm:flex-1">
-                <li className="relative justify-center h-[100%] hover:text-[#cbd5e1] hover:bg-[#535353] transition hover:duration-300 sm:flex sm:flex-1">
+            <ul className="flex flex-1">
+                <li className="flex relative flex-1 justify-center h-[100%] hover:text-[#cbd5e1] hover:bg-[#535353] transition hover:duration-300">
                     <Link href="/">
                         <a
-                            className={`sm:flex justify-center items-center sm:absolute w-[100%] h-[100%] top-0 bottom-0 ${
+                            className={`flex justify-center items-center  w-[100%] h-[100%] top-0 bottom-0 ${
                                 currentPath === '' ? 'text-[#cbd5e1] bg-[#535353]' : ''
                             }`}
                         >
@@ -38,7 +41,7 @@ const Header = () => {
                         >
                             <Link href={`/${menu.name.toLowerCase()}`}>
                                 <a
-                                    className={`sm:flex justify-center items-center sm:absolute w-[100%] h-[100%] top-0 bottom-0 ${
+                                    className={`flex justify-center items-center  w-[100%] h-[100%] top-0 bottom-0 ${
                                         currentPath === menu.name.toLocaleLowerCase()
                                             ? 'text-[#cbd5e1] bg-[#535353]'
                                             : ''
