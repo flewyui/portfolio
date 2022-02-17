@@ -20,27 +20,25 @@ const Skills = () => {
                         <h2 className="text-[18px] font-bold">JavaScript</h2>
                         <p className="text-[#ffd700]">★★★★☆</p>
                         <p className="text-[13px]">
-                            最も得意とするフレームワークです。
+                            最も得意とする言語です。
                             <br />
-                            Reduxを用いた状態管理や、様々なライブラリの導入も経験して参りました。
+                            ES6, jQuery, 各種ライブラリでの実務経験がございます。
                         </p>
                     </div>
                     <div className="flex-1 p-2 m-1 w-[50%] text-center text-white bg-[#535353] opacity-50 sm:w-[25%]">
                         <h2 className="text-[18px] font-bold">HTML</h2>
                         <p className="text-[#ffd700]">★★★★☆</p>
                         <p className="text-[13px]">
-                            最も得意とするフレームワークです。
+                            マークアップも問題なく行えます。
                             <br />
-                            Reduxを用いた状態管理や、様々なライブラリの導入も経験して参りました。
+                            ECサイト開発案件では1からLPの作成なども行っておりました。
                         </p>
                     </div>
                     <div className="flex-1 p-2 m-1 w-[50%] text-center text-white bg-[#535353] opacity-50 sm:w-[25%]">
                         <h2 className="text-[18px] font-bold">CSS</h2>
                         <p className="text-[#ffd700]">★★★★☆</p>
                         <p className="text-[13px]">
-                            最も得意とするフレームワークです。
-                            <br />
-                            Reduxを用いた状態管理や、様々なライブラリの導入も経験して参りました。
+                            SCSSの実務経験、独学ですが、Bootstrap, Tailwindの実装経験もございます。
                         </p>
                     </div>
                 </div>
@@ -52,37 +50,27 @@ const Skills = () => {
                         <h2 className="text-[18px] font-bold">Laravel</h2>
                         <p className="text-[#ffd700]">★★★☆☆</p>
                         <p className="text-[13px]">
-                            最も得意とするフレームワークです。
-                            <br />
-                            Reduxを用いた状態管理や、様々なライブラリの導入も経験して参りました。
+                            実務での検索処理機能改修や、独学でのアプリ開発の際に使用経験がございます。
                         </p>
                     </div>
                     <div className="flex-1 p-2 m-1 w-[50%] text-center text-white bg-[#535353] opacity-50 sm:w-[25%]">
                         <h2 className="text-[18px] font-bold">PHP</h2>
                         <p className="text-[#ffd700]">★★★☆☆</p>
                         <p className="text-[13px]">
-                            最も得意とするフレームワークです。
-                            <br />
-                            Reduxを用いた状態管理や、様々なライブラリの導入も経験して参りました。
+                            独学ですが、フレームワーク機能を使わずにログイン実装や、SQLでのCRUD処理の経験がございます。
                         </p>
                     </div>
                     <div className="flex-1 p-2 m-1 w-[50%] text-center text-white bg-[#535353] opacity-50 sm:w-[25%]">
                         <h2 className="text-[18px] font-bold">AWS</h2>
                         <p className="text-[#ffd700]">★★☆☆☆</p>
                         <p className="text-[13px]">
-                            最も得意とするフレームワークです。
-                            <br />
-                            Reduxを用いた状態管理や、様々なライブラリの導入も経験して参りました。
+                            実務での、API Gateway, S3, CloudFront, CodeCommitなどの各種サービスの経験がございます。
                         </p>
                     </div>
                     <div className="flex-1 p-2 m-1 w-[50%] text-center text-white bg-[#535353] opacity-50 sm:w-[25%]">
                         <h2 className="text-[18px] font-bold">Docker</h2>
                         <p className="text-[#ffd700]">★★☆☆☆</p>
-                        <p className="text-[13px]">
-                            最も得意とするフレームワークです。
-                            <br />
-                            Reduxを用いた状態管理や、様々なライブラリの導入も経験して参りました。
-                        </p>
+                        <p className="text-[13px]">実務での環境構築経験がございます。</p>
                     </div>
                 </div>
             </div>
